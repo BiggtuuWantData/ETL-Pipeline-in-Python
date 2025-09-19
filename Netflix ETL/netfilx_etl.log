@@ -1,0 +1,22 @@
+2025-09-14 18:11:23,170 - INFO - Starting ETL Pipeline
+2025-09-14 18:11:23,171 - INFO - Extracting data from csv C:\Users\guymn\Desktop\ETL&ELT\dataset\Netflix.csv.
+2025-09-14 18:11:23,176 - INFO - Transforming dataframe from csv
+2025-09-14 18:11:23,176 - DEBUG - Cleaning 'country' column
+2025-09-14 18:11:23,177 - DEBUG - Cleaning 'director' and 'cast' column
+2025-09-14 18:11:23,178 - DEBUG - Dropping 'show_id' and 'description' column
+2025-09-14 18:11:23,179 - DEBUG - Convert datatype 'date_added' to datetime
+2025-09-14 18:11:23,193 - INFO - Loading         type                                 title         director  ... rating   duration                                          listed_in
+0      Movie                  Dick Johnson Is Dead  Kirsten Johnson  ...  PG-13     90 min                                      Documentaries
+1    TV Show                         Blood & Water           Unknow  ...  TV-MA  2 Seasons    International TV Shows, TV Dramas, TV Mysteries
+2    TV Show                             Ganglands  Julien Leclercq  ...  TV-MA   1 Season  Crime TV Shows, International TV Shows, TV Act...
+3    TV Show                 Jailbirds New Orleans           Unknow  ...  TV-MA   1 Season                             Docuseries, Reality TV
+4    TV Show                          Kota Factory           Unknow  ...  TV-MA  2 Seasons  International TV Shows, Romantic TV Shows, TV ...
+..       ...                                   ...              ...  ...    ...        ...                                                ...
+195    Movie       EMI: Liya Hai To Chukana Padega    Saurabh Kabra  ...  TV-14    128 min             Comedies, Dramas, International Movies
+196    Movie                         He's All That      Mark Waters  ...  TV-14     92 min                          Comedies, Romantic Movies
+197  TV Show                          I Heart Arlo           Unknow  ...  TV-Y7   1 Season                              Kids' TV, TV Comedies
+198  TV Show  King of Boys: The Return of the King     Kemi Adetiba  ...  TV-MA   1 Season  Crime TV Shows, International TV Shows, TV Dramas
+199    Movie                            Koi Aap Sa     Partho Mitra  ...  TV-14    135 min             Comedies, Dramas, International Movies
+
+[200 rows x 10 columns] file name : cleaned_netflix.csv
+2025-09-14 18:11:23,198 - INFO - File cleaned_netflix.csv saved successfully
